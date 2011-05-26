@@ -29,3 +29,6 @@ alias s3cmd="s3cmd.rb"
 
 #dns
 alias dns="dscacheutil -flushcache"
+
+#GTFO
+alias gtfo='exit'
