@@ -1,0 +1,31 @@
+# top
+alias top="htop"
+
+alias h='history'
+
+# navigation
+alias ..="cd .." # back one directory
+alias ls="ls -lGh"
+
+#reload 
+alias reload="source ~/.bashrc"
+alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
+
+function take {
+	mkdir $1
+	cd $1
+}
+
+#rsync
+function dsync {
+	rsync -avl --progress --stats $1 $2
+}
+
+function ddsync {
+	rsync -avl --progress --stats --delete $1 $2
+}
+#s3
+alias s3cmd="s3cmd.rb"
+
+#dns
+alias dns="dscacheutil -flushcache"
