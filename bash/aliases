@@ -39,3 +39,6 @@ alias gc='git commit -v'
 alias gl='git pull'
 alias gp='git push'
 alias gst='git status'
+
+#install-key
+alias ik='install-key'
