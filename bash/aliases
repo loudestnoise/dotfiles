@@ -32,3 +32,10 @@ alias dns="dscacheutil -flushcache"
 
 #GTFO
 alias gtfo='exit'
+
+#git
+alias gb="git branch"
+alias gc='git commit -v'
+alias gl='git pull'
+alias gp='git push'
+alias gst='git status'
