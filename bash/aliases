@@ -27,7 +27,7 @@ function ddsync {
 #s3
 alias s3cmd="s3cmd.rb"
 
-#dns
+#dns flush for OS X
 alias dns="dscacheutil -flushcache"
 
 #GTFO
