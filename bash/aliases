@@ -7,6 +7,11 @@ alias h='history'
 alias ..="cd .." # back one directory
 alias ls="ls -lGh"
 
+function cdl {
+	cd $1
+	ls -lGh
+}
+
 #reload 
 alias reload="source ~/.bashrc"
 alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
