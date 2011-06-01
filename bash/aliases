@@ -61,3 +61,6 @@ function dbdump {
 function dbin {
 	mysql -v -u root -p $1 < $2
 }
+
+#add jeff echo
+alias jeff='echo "Jeff is dumb"'
