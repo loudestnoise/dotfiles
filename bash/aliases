@@ -57,3 +57,7 @@ alias upgrade='sudo apt-get upgrade'
 function dbdump {
 	mysqldump -v -u root -p --compatible=mysql40 $1 > $2
 }
+
+function dbin {
+	mysql -v -u root -p $1 < $2
+}
