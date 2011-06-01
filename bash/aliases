@@ -47,3 +47,7 @@ alias gst='git status'
 
 #install-key
 alias ik='install-key'
+
+#Ubuntu updates
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade'
