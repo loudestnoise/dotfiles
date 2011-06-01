@@ -6,6 +6,7 @@ alias h='history'
 # navigation
 alias ..="cd .." # back one directory
 alias ls="ls -lGh"
+alias c='clear'
 
 function cdl {
 	cd $1
