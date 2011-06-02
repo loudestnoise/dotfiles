@@ -41,7 +41,9 @@ alias gtfo='exit'
 
 #git
 alias gb="git branch"
-alias gc='git commit -v'
+function gc {
+	git commit -m '$1'
+}
 alias gl='git pull'
 alias gp='git push'
 alias gst='git status'
