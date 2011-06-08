@@ -45,7 +45,7 @@ alias gc='git commit -v'
 alias gl='git pull'
 alias gp='git push'
 alias gst='git status'
-
+alias lol='git log --pretty=oneline --abbrev-commit --graph --decorate'
 #install-key
 alias ik='install-key'
 
