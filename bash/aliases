@@ -1,6 +1,7 @@
 # top
 alias top="htop"
 
+#shortcuts
 alias h='history'
 
 # navigation
@@ -13,14 +14,14 @@ function cdl {
 	ls -lGh
 }
 
-#reload 
-alias reload="source ~/.bashrc"
-alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
-
 function take {
 	mkdir $1
 	cd $1
 }
+
+#reload 
+alias reload="source ~/.bashrc"
+alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
 
 #rsync
 function dsync {
@@ -30,6 +31,7 @@ function dsync {
 function ddsync {
 	rsync -avl --progress --stats --delete $1 $2
 }
+
 #s3
 alias s3cmd="s3cmd.rb"
 
@@ -46,6 +48,8 @@ alias gl='git pull'
 alias gp='git push'
 alias gst='git status'
 alias lol='git log --pretty=oneline --abbrev-commit --graph --decorate'
+alias ga='git add'
+
 #install-key
 alias ik='install-key'
 
