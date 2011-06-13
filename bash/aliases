@@ -30,8 +30,6 @@ function dsync {
 function ddsync {
 	rsync -avl --progress --stats --delete $1 $2
 }
-#s3
-alias s3cmd="s3cmd.rb"
 
 #dns flush for OS X
 alias dns="dscacheutil -flushcache"
@@ -46,6 +44,8 @@ alias gl='git pull'
 alias gp='git push'
 alias gst='git status'
 alias lol='git log --pretty=oneline --abbrev-commit --graph --decorate'
+alias ga='git add'
+
 #install-key
 alias ik='install-key'
 
@@ -61,4 +61,3 @@ function dbdump {
 function dbin {
 	mysql -v -u root -p $1 < $2
 }
-
