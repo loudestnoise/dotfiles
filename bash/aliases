@@ -1,7 +1,6 @@
 # top
 alias top="htop"
 
-#shortcuts
 alias h='history'
 
 # navigation
@@ -31,9 +30,6 @@ function dsync {
 function ddsync {
 	rsync -avl --progress --stats --delete $1 $2
 }
-
-#s3
-alias s3cmd="s3cmd.rb"
 
 #dns flush for OS X
 alias dns="dscacheutil -flushcache"
@@ -65,4 +61,3 @@ function dbdump {
 function dbin {
 	mysql -v -u root -p $1 < $2
 }
-
