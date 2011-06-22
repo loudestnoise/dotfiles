@@ -1,6 +1,7 @@
 # top
 alias top="htop"
 
+# history (then use !XXX to run cmd)
 alias h='history'
 
 # navigation
