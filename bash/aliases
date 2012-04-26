@@ -35,8 +35,8 @@ function ddsync {
 #dns flush for OS X
 alias dns="dscacheutil -flushcache"
 
-#GTFO
-alias gtfo='exit'
+#TTFN
+alias ttfn='exit'
 
 #git
 alias gb="git branch"
