@@ -20,7 +20,7 @@ function take {
 }
 
 #reload 
-alias reload="source ~/.bashrc"
+alias reload=". ~/.bash_profile"
 alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
 
 #rsync
