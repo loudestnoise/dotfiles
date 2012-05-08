@@ -32,8 +32,6 @@ function ddsync {
 	rsync -avl --progress --stats --delete $1 $2
 }
 
-#dns flush for OS X
-alias dns="dscacheutil -flushcache"
 
 #TTFN
 alias ttfn='exit'
@@ -62,3 +60,7 @@ function dbdump {
 function dbin {
 	mysql -v -u root -p $1 < $2
 }
+
+# OS X things
+alias dns="dscacheutil -flushcache"
+alias dock="killall Dock"
