@@ -60,6 +60,8 @@ function dbdump {
 function dbin {
 	mysql -v -u root -p $1 < $2
 }
+# Get Public IP
+alias ip="curl icanhazip.com"
 
 # OS X things
 alias dns="dscacheutil -flushcache"
