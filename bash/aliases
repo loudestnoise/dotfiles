@@ -67,3 +67,6 @@ alias ip="curl icanhazip.com"
 # OS X things
 alias dns="dscacheutil -flushcache"
 alias dock="killall Dock"
+
+#Tell Me About cha
+alias about="uname -a && head -n1 /etc/issue"
