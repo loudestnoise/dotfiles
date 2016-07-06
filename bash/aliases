@@ -81,9 +81,6 @@ alias dock="killall Dock"
 #Tell Me About cha
 alias about="uname -a && head -n1 /etc/issue"
 
-<<<<<<< HEAD
-alias pi="ssh -p 7000 pi@localhost"
-=======
 #OpenAPS
 #Tail syslog grepped openaps-loop
 alias tt="tail -f /var/log/syslog | grep openaps-loop"
