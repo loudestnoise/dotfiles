@@ -1,3 +1,13 @@
+#Nightscout
+function ns-start {
+	cd ~/cgm-remote-monitor
+	env $(cat my.env) pm2 start server.js
+}
+
+function ns-restart {
+	cd ~/cgm-remote-monitor
+	env $(cat my.env) pm2 restart server.js
+}
 # top
 alias top="htop"
 
@@ -70,3 +80,5 @@ alias dock="killall Dock"
 
 #Tell Me About cha
 alias about="uname -a && head -n1 /etc/issue"
+
+alias pi="ssh -p 7000 pi@localhost"
