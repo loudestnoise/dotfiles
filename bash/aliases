@@ -84,3 +84,5 @@ alias about="uname -a && head -n1 /etc/issue"
 #OpenAPS
 #Tail syslog grepped openaps-loop
 alias tt="tail -f /var/log/syslog | grep openaps-loop"
+
+alias loop="echo Loop loop loop"
