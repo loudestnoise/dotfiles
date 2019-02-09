@@ -1,4 +1,9 @@
+#CentOS/RHeL thingerdoodles
+alias updates="sudo yum update -y"
+
+#Moooooooooooooo
 alias moo="echo Mooooo | cowsay"
+
 #Nightscout
 function ns-start {
 	cd ~/cgm-remote-monitor
