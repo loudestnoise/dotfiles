@@ -1,6 +1,8 @@
 #CentOS/RHeL thingerdoodles
 alias updates="sudo yum update -y"
 
+#Ubuntu Update/Upgrade
+alias uu="sudo apt update && sudo apt upgrade -y"
 #Moooooooooooooo
 alias moo="echo Mooooo | cowsay"
 
