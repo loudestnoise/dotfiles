@@ -1,3 +1,5 @@
+#Shutdown
+alias reboot="sudo shutdown -r now"
 #CentOS/RHeL thingerdoodles
 alias updates="sudo yum update -y"
 
@@ -9,12 +11,12 @@ alias moo="echo Mooooo | cowsay"
 #Nightscout
 function ns-start {
 	cd ~/cgm-remote-monitor
-	env $(cat my.env) pm2 start server.js
+	env $(cat my.env) pm2 start server.js --update-env
 }
 
-function ns-restart {
+function reload {
 	cd ~/cgm-remote-monitor
-	env $(cat my.env) pm2 restart server.js
+	env $(cat my.env) pm2 reload server.js --update-env
 }
 # top
 alias top="htop"
@@ -36,10 +38,6 @@ function take {
 	mkdir $1
 	cd $1
 }
-
-#reload 
-alias reload=". ~/.bash_profile"
-alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
 
 #rsync
 function dsync {
